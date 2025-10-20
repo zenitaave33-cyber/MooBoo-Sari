@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil - MooBoo Sari</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         /* Definisikan warna hijau elegan */
         :root {
@@ -15,7 +16,7 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Poppins', sans-serif;
             background-color: var(--background-color);
             color: var(--text-color);
             margin: 0;
@@ -56,18 +57,34 @@
         .content {
             padding: 40px;
             text-align: justify;
-            line-height: 1.6;
+            line-height: 1.8;
         }
 
         .content img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-right: 20px;
+            width: 100%; /* Menggunakan lebar penuh */
+            height: auto; /* Menjaga proporsi gambar */
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .content h2, .content h3 {
+            color: var(--primary-green);
         }
 
         .content p {
+            font-size: 1.1em;
             margin-bottom: 20px;
+        }
+
+        .content .images-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .content .images-container img {
+            width: 48%;
+            border-radius: 8px;
         }
 
         footer {
@@ -94,20 +111,16 @@
     </nav>
 
     <div class="content">
-        <img src="foto.jpg" alt="Foto Toko MooBoo Sari">
         <h2>Tentang Kami</h2>
         <p>Toko "MooBoo Sari" adalah perusahaan ternak yang didirikan oleh dua siswa asal SMAN 1 Wonosobo.</p>
+        
+        <div class="images-container">
+            <img src="foto.jpg" alt="Foto Toko MooBoo Sari">
+            <img src="slogan.jpg" alt="Slogan MooBoo Sari">
+        </div>
+
         <h3>Visi</h3>
         <p>Menjadi penyedia hewan ternak yang sehat, unggul, dan terpercaya guna mendukung ketahanan pangan serta kesejahteraan peternak lokal.</p>
+        
         <h3>Misi</h3>
-        <p>Menyediakan ternak berkualitas melalui perawatan terbaik, pelayanan jujur, dan sistem penjualan modern yang memberdayakan peternak serta ramah lingkungan.</p>
-        <h3>Slogan</h3>
-        <img src="slogan.jpg" alt="Slogan MooBoo Sari">
-    </div>
-
-    <footer>
-        <p>&copy; 2025 MooBoo Sari - Semua Hak Dilindungi</p>
-    </footer>
-
-</body>
-</html>
+        <p>Menyediakan ternak berkualitas melalui perawatan terbaik, pelayanan jujur, dan sistem penjualan mo
