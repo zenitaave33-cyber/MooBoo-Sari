@@ -1,28 +1,113 @@
-tentang.html (Profil)
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
- <title>Profil</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - MooBoo Sari</title>
+    <style>
+        /* Definisikan warna hijau elegan */
+        :root {
+            --primary-green: #2E8B57; /* Hijau utama */
+            --secondary-green: #3CB371; /* Hijau muda */
+            --light-green: #98FB98; /* Hijau terang */
+            --background-color: #F0F8FF; /* Latar belakang cerah */
+            --text-color: #333; /* Teks berwarna gelap untuk kontras */
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-green);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: var(--primary-green);
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-green);
+            color: white;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        .content img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: var(--primary-green);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
- <h1>Profil</h1>
- <p>Toko "MooBoo Sari" merupakan perusahaan ternak yang didirikan oleh 2 siswa asal SMAN 1 Wonosobo.</p>
- <p>Visi: Menjadi penyedia hewan ternak yang sehat, unggul, dan terpercaya guna mendukung ketahanan pangan serta kesejahteraan peternak lokal.</p>
- <p>Misi:Menyediakan ternak berkualitas melalui perawatan terbaik, pelayanan jujur, dan sistem penjualan modern yang memberdayakan peternak serta ramah lingkungan.</p>
- <nav>
- <a href="Profil.html">Profil</a> |
- <a href="Produk.html">Produk</a> |
- <a href="Kontak.html">Kontak</a> |
 
-  </nav>
+    <header>
+        <h1>Profil MooBoo Sari</h1>
+    </header>
 
-|<td><img src="slogan.jpg" width-50 high-50></td>
+    <nav>
+        <a href="Profil.html">Profil</a> |
+        <a href="Produk.html">Produk</a> |
+        <a href="Kontak.html">Kontak</a>
+    </nav>
 
-</tr>
+    <div class="content">
+        <img src="foto.jpg" alt="Foto Toko MooBoo Sari">
+        <h2>Tentang Kami</h2>
+        <p>Toko "MooBoo Sari" adalah perusahaan ternak yang didirikan oleh dua siswa asal SMAN 1 Wonosobo.</p>
+        <h3>Visi</h3>
+        <p>Menjadi penyedia hewan ternak yang sehat, unggul, dan terpercaya guna mendukung ketahanan pangan serta kesejahteraan peternak lokal.</p>
+        <h3>Misi</h3>
+        <p>Menyediakan ternak berkualitas melalui perawatan terbaik, pelayanan jujur, dan sistem penjualan modern yang memberdayakan peternak serta ramah lingkungan.</p>
+        <h3>Slogan</h3>
+        <img src="slogan.jpg" alt="Slogan MooBoo Sari">
+    </div>
 
-|<td><img src="foto.jpg" width-50 high-50></td>
-
-</tr>
+    <footer>
+        <p>&copy; 2025 MooBoo Sari - Semua Hak Dilindungi</p>
+    </footer>
 
 </body>
 </html>
